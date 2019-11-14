@@ -9,8 +9,10 @@ namespace Stripe\Issuing;
  * @property string $object
  * @property mixed|null $authorization_controls
  * @property mixed $billing
+ * @property mixed|null $company
  * @property int $created
  * @property string|null $email
+ * @property mixed|null $individual
  * @property bool $is_default
  * @property bool $livemode
  * @property \Stripe\StripeObject $metadata

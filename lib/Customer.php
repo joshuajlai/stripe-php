@@ -27,7 +27,9 @@ namespace Stripe;
  * @property \Stripe\Collection $sources
  * @property \Stripe\Collection $subscriptions
  * @property string|null $tax_exempt
- * @property \Stripe\Collection $tax_ids
+ * @property mixed $tax_ids
+ * @property mixed|null $tax_info
+ * @property mixed|null $tax_info_verification
  *
  * @package Stripe
  */

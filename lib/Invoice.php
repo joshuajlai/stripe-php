@@ -60,6 +60,7 @@ namespace Stripe;
  * @property int $subscription_proration_date
  * @property int $subtotal
  * @property int|null $tax
+ * @property float|null $tax_percent
  * @property mixed $threshold_reason
  * @property int $total
  * @property array|null $total_tax_amounts

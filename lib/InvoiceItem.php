@@ -22,7 +22,8 @@ namespace Stripe;
  * @property int $quantity
  * @property string|null $subscription
  * @property string $subscription_item
- * @property array|null $tax_rates
+ * @property mixed|null $tax_rates
+ * @property bool $unified_proration
  * @property int|null $unit_amount
  * @property string|null $unit_amount_decimal
  *

@@ -15,6 +15,7 @@ namespace Stripe;
  * @property mixed|null $current_phase
  * @property string $customer
  * @property string|null $default_payment_method
+ * @property mixed $default_settings
  * @property string $end_behavior
  * @property mixed|null $invoice_settings
  * @property bool $livemode
